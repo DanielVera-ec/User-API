@@ -10,4 +10,5 @@ import com.tts.UserAPI.model.User;
 @Repository
 public interface UserRepository extends CrudRepository<User, Long>{
 	public List<User> findAllByState(String state);
+
 }
